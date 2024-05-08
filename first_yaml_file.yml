@@ -1,0 +1,33 @@
+# this is a yaml file
+my-key: 'Guy yaml projects'
+version: 1.0
+price: 0
+is_public: true
+first_comit_date: 2024-04-08 # format: YYYY-MM-DD
+category:
+  - yaml
+  - projects
+  - Guy Dev
+
+constributors: ['Guy', 'Yotam', 'Oran']
+constributors_details:
+ - name: Guy
+   age: 29
+   is_active: true
+  - name: Yotam
+   age: 32
+   is_active: true
+  - name: Oran
+    age: 30
+    is_active: True
+
+short_description: >
+  This is a short description of the project
+  that can span multiple lines
+  by using the '>' character
+
+long_description: |
+  This is a long description of the project
+  that can span multiple lines
+  by using the '|' character
+  and will preserve the new lines
